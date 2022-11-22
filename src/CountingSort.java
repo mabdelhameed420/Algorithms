@@ -2,7 +2,7 @@ class CountingSort {
     public static void countingSort(int[] array, int size) {
 
         int[] output = new int[size + 1];
-        int max = 0;
+        int max = array[0];
         for (int i = 0; i < size; i++) {
             max = Math.max(max, array[i]);
         }

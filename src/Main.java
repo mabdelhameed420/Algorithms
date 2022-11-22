@@ -8,7 +8,5 @@ public class Main {
         CountingSort.countingSort(data, data.length);
         System.out.println("--array after counting sort--");
         System.out.println(Arrays.toString(data));
-
-
     }
 }
